@@ -1,3 +1,67 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #e8e8e8;
+}
+
+.middle {
+  display: flex;
+}
+
+.subheading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #646464;
+}
+
+.in-brackets {
+  font-size: 1rem;
+}
+
+.left-input,
+.right-input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  width: 150px;
+  font-size: 3.3rem;
+}
+
+input,
+textarea {
+  background-color: #e8e8e8;
+}
+
+.calculate-button {
+  background-color: #646464;
+  color: #e8e8e8;
+  font-weight: 700;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 2rem;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.BMI {
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  width: 150px;
+  font-size: 3.3rem;
 }

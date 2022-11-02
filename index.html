@@ -5,13 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>BMI Calculator</title>
   </head>
   <body>
     <header>
-      <h1>BMI Calculator</h1>
+      <h1>BMI CALCULATOR</h1>
     </header>
-    <main></main>
+
+    <div class="middle">
+      <div class="left-input">
+        <p class="subheading">HEIGHT <span class="in-brackets">(IN M)</span></p>
+        <input type="number" placeholder="_____" class="height-input" />
+      </div>
+      <div class="right-input">
+        <p class="subheading">
+          WEIGHT <span class="in-brackets">(IN KG)</span>
+        </p>
+        <input type="number" placeholder="_____" class="weight-input" />
+      </div>
+    </div>
+
+    <div class="bottom">
+      <button class="calculate-button">CALCULATE</button>
+      <p class="subheading">YOUR BMI IS</p>
+      <p class="BMI">????</p>
+    </div>
 
     <script src="script.js"></script>
   </body>
