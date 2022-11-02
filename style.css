@@ -1,19 +1,26 @@
+* {
+  margin: 0;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  margin-bottom: 100px;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
   background-color: #e8e8e8;
+  height: 100vh;
+  justify-content: center;
 }
 
 .middle {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .subheading {
@@ -31,14 +38,16 @@ body {
 .right-input {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 input {
   font-family: "Roboto", sans-serif;
   border: 0;
-  width: 150px;
-  font-size: 3.3rem;
+  width: 200px;
+  font-size: 6rem;
 }
 
 input,
@@ -55,13 +64,28 @@ textarea {
   border-radius: 30px;
   font-size: 2rem;
   border: none;
-  margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .BMI {
   font-family: "Roboto", sans-serif;
   border: 0;
-  width: 150px;
-  font-size: 3.3rem;
+  width: 300px;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(180, 20, 20);
+  margin-top: 9px;
 }
