@@ -7,6 +7,8 @@ h1 {
   font-weight: 900;
   font-size: 3.5rem;
   margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 body {
@@ -21,6 +23,7 @@ body {
 .middle {
   display: flex;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .subheading {
@@ -38,7 +41,6 @@ body {
 .right-input {
   display: flex;
   flex-direction: column;
-
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -48,6 +50,7 @@ input {
   border: 0;
   width: 200px;
   font-size: 6rem;
+  text-align: center;
 }
 
 input,
@@ -88,4 +91,42 @@ textarea {
   font-weight: 700;
   color: rgb(180, 20, 20);
   margin-top: 9px;
+}
+
+/*Anything outside of media queries is for MOBILE
+  This is Mobile first approach.
+*/
+
+/* Smartphones */
+@media (max-width: 390px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .subheading {
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 4rem;
+  }
+
+  .middle {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 5rem;
+  }
 }
